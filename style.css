@@ -51,6 +51,11 @@ li a {
     margin: 0 30px;
 }
 
+.navbar .logo p {
+    color: #fc036b;
+    font-size: 1.2vmin;
+}
+
 
 header {
     width: 100vw;
@@ -101,6 +106,7 @@ header {
     width: 40px;
     cursor: pointer;
     display: none;
+    background: #fc036b;
 }
 
 
@@ -246,7 +252,11 @@ p {
     }
     .navbar {
         padding: 0;
-        color:#484872;
+        color:#fc036b;
+    }
+    .navbar .logo p {
+        color: #484872;
+        font-size: 2vmin;
     }
 
     .logo {
